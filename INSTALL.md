@@ -97,4 +97,20 @@ docker stop portainer
 docker rm portainer
 docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --restart=always -v /opt/portainer_cn:/public --name portainer portainer/portainer-ce
 ```
-
+安装 Docker
+Centos
+```
+yum install -y yum-utils
+yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
+yum install docker-ce docker-ce-cli containerd.io -y
+systemctl start docker
+systemctl enable docker
+```
+安装Docker-compose
+```
+curl -fsSL https://get.docker.com | bash -s docker
+curl -L "https://github.com/docker/compose/releases/download/1.26.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+chmod +x /usr/local/bin/docker-compose
+```
