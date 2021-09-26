@@ -57,7 +57,7 @@ sudo docker pull rubyangxg/jd-qinglong:allinone
 ```
 4. 下载配置文件模板，根据需要修改，不要缺少此文件
 ```
-wget -O env.properties https://raw.githubusercontent.com/rubyangxg/jd-qinglong/master/env.template.properties
+已经配置
 ```
 5. 启动，其中SE_NODE_MAX_SESSIONS=8请根据机器配置改，**_注意这是1条命令，全部复制执行_**
 ```
