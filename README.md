@@ -118,3 +118,12 @@ chmod +x /usr/local/bin/docker-compose
 ```
 git clone https://github.com/letseeqiji/oneinstall.git && cd oneinstall/golang && sh goinstall.sh
 ```
+列出所有的容器 ID
+1
+docker ps -aq
+停止所有的容器
+1
+docker stop $(docker ps -aq)
+删除所有的容器
+1
+docker rm $(docker ps -aq)
