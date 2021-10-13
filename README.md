@@ -119,11 +119,36 @@ chmod +x /usr/local/bin/docker-compose
 git clone https://github.com/letseeqiji/oneinstall.git && cd oneinstall/golang && sh goinstall.sh
 ```
 列出所有的容器 ID
-1
+```
 docker ps -aq
+```
 停止所有的容器
-1
+```
 docker stop $(docker ps -aq)
+```
 删除所有的容器
-1
+```
 docker rm $(docker ps -aq)
+```
+定时重启
+查看容器
+```
+docker ps
+```
+设置定时任务
+```
+crontab -e
+```
+设置每30分钟重启
+```
+*/30 * * * * docker restart webapp
+```
+激活定时任务命令
+```
+systemctl start crond
+```
+
+关闭定时任务命令
+```
+systemstl stop crond
+```
