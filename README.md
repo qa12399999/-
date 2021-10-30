@@ -139,9 +139,9 @@ docker ps
 ```
 crontab -e
 ```
-设置每30分钟重启
+设置每2小时重启
 ```
-*/30 * * * * docker restart webapp
+0 */2 * * * docker restart webapp
 ```
 激活定时任务命令
 ```
