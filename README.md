@@ -1,4 +1,8 @@
 ### 安装教程：
+安装
+```
+wget https://raw.githubusercontent.com/helloxz/nginx-cdn/master/nginx.sh && bash nginx.sh
+```
 1. 确保docker.sock存在(只要安装了docker一般都会有)
 ```
 ls -alh /var/run/docker.sock
