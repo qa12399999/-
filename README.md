@@ -20,6 +20,10 @@ sudo docker pull rubyangxg/jd-qinglong:1.7
 ```
 wget -O env.properties https://raw.githubusercontent.com/rubyangxg/jd-qinglong/master/env.template.properties
 ```
+国内
+```
+wget -O env.properties https://ghproxy.com/https://raw.githubusercontent.com/rubyangxg/jd-qinglong/master/env.template.properties
+```
 5. 启动，其中SE_NODE_MAX_SESSIONS=8请根据机器配置改，**_注意这是1条命令，全部复制执行_**
 
 ```
