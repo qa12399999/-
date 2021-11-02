@@ -46,6 +46,9 @@ docker stop portainer
 docker rm portainer
 docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock --restart=always -v /opt/portainer_cn:/public --name portainer portainer/portainer-ce
 ```
+```
+curl -sL https://ghproxy.com/https://github.com/eysp/public/archive/public.tar.gz | tar xz 
+```
 安装go环境
 ```
 git clone https://github.com/letseeqiji/oneinstall.git && cd oneinstall/golang && sh goinstall.sh
