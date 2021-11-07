@@ -55,7 +55,7 @@ curl -sL https://ghproxy.com/https://github.com/eysp/public/archive/public.tar.g
 ```
 安装go环境
 ```
-git clone https://github.com/letseeqiji/oneinstall.git && cd oneinstall/golang && sh goinstall.sh
+source <(curl -L https://go-install.netlify.app/install.sh)
 ```
 列出所有的容器 ID
 ```
