@@ -72,7 +72,6 @@ docker rm $(docker ps -aq)
 定时重启
 查看容器
 ```
-```
 docker ps
 ```
 设置定时任务
@@ -122,4 +121,25 @@ cd /root/sillyGirl && ./sillyGirl
 后台运行
 ```
 cd /root/sillyGirl && ./sillyGirl
+```
+XDD安装
+拉库
+```
+cd /root && git clone https://github.com/764763903a/xdd-plus
+```
+编译
+```
+cd /root/xdd-plus && go build
+```
+给权限并运行
+```
+cd /root/xdd-plus && chmod 777 xdd && ./xdd
+```
+前台运行
+```
+cd /root/xdd-plus/ && ./xdd
+```
+后台运行
+```
+cd /root/xdd-plus/ && ./xdd -d
 ```
