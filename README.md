@@ -72,6 +72,7 @@ docker rm $(docker ps -aq)
 定时重启
 查看容器
 ```
+```
 docker ps
 ```
 设置定时任务
@@ -90,4 +91,35 @@ systemctl start crond
 关闭定时任务命令
 ```
 systemstl stop crond
+```
+傻妞安装
+安装git
+```
+yum install -y git
+```
+拉库
+```
+cd /root && git clone https://ghproxy.com/https://github.com/cdle/sillyGirl
+```
+拉扩展库
+```
+配置dev.go文件
+```
+cd /root/sillyGirl && git clone https://ghproxy.com/https://github.com/ufuckee/jd_cookie
+```
+编译
+```
+cd /root/sillyGirl && go build
+```
+给权限并运行
+```
+cd /root/sillyGirl && chmod 777 sillyGirl && ./sillyGirl
+```
+前台运行
+```
+cd /root/sillyGirl && ./sillyGirl
+```
+后台运行
+```
+cd /root/sillyGirl && ./sillyGirl
 ```
