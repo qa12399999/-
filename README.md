@@ -101,7 +101,7 @@ yum install -y git
 cd /root && git clone https://ghproxy.com/https://github.com/cdle/sillyGirl
 ```
 拉扩展库
-```
+
 配置dev.go文件
 ```
 cd /root/sillyGirl && git clone https://ghproxy.com/https://github.com/ufuckee/jd_cookie
