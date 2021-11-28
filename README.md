@@ -150,3 +150,8 @@ docker exec -it qinglong bash
 ```
 curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/QLDependency/main/Shell/QLOneKeyDependency.sh | sh
 ```
+拉库命令解释说明
+拉取一个库
+
+ql repo <repourl> <path> <blacklist> <dependence> <branch>
+##引用站友狼魂的精辟解释“库地址”“拉哪些”“不拉哪些”“依赖文件”“分支”
