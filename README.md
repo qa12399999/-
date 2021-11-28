@@ -143,3 +143,10 @@ cd /root/xdd-plus/ && ./xdd
 ```
 cd /root/xdd-plus/ && ./xdd -d
 ```
+一键安装青龙多有依赖
+```
+docker exec -it qinglong bash
+```
+```
+curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/QLDependency/main/Shell/QLOneKeyDependency.sh | sh
+```
