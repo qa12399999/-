@@ -1,4 +1,4 @@
-### 安装教程：：
+### 安装教程：第一步
 安装docker
 ```
 bash <(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/DockerInstallation.sh)
